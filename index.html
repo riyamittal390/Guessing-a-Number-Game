@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess the Number</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <button class="buttons" style="background-color: rgb(218, 213, 213)">Home</button>
+      <button class="buttons" style="background-color: rgba(243, 236, 236, 0.955)">Youtube Channel</button>
+    </div>
+
+    <div class="container">
+      <div class="content">
+        <div class="heading">
+          <h1>Number Guessing Game</h1>
+        </div>
+        
+
+        <div class="main">
+          <p> Try and guess a random number between 1 and 100. You have 10 attempts to guess the right number. </p>
+          <h1 class="guess">Guess a Number</h1>
+          <div class="write_num">
+            <input type="text" name="number_guess" class="number">
+          </div>
+          <div class="click">
+            <button type="submit">Submit guess</button>
+          </div>
+ 
+
+          <div class="result">
+            <p class="box" >Previous Guesses : </p>
+            <p class="remaining">Guesses Remaining : 10</p>
+            <p class="lowOrHi"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="project.js"></script>
+</html>
